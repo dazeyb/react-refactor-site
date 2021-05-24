@@ -28,7 +28,7 @@ Today we're going to modernize Monument, a static magazine website. It is now ti
 
 
 **Suggested implementation**
-1. Create a React application in a new directory. The path to your react app should look something like this: `monument-react-refactor/react-directory-for-refactor` - meaning the React app is on the same level as the README and the screenshots directory.
+1. Create a React application in a new directory. The path to your react app should look something like this: `monument-react-refactor/react-directory-for-refactor` - meaning the React app is on the same level as the README and the screenshots directory. 
 2. Copy *all* of your `html` content (minus the `head` tag) into a new React component.
 3. Copy images and css into a `public` folder.
 4. Link all of the images and styles into your new component. You may overwrite the `index.css` with the original *static-starter-site* css.
