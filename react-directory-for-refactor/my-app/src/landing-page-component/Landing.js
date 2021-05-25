@@ -9,15 +9,15 @@ import Contact from './Landing-component/Contact.js';
 
 function Landing() {
     return (
-        <div>
-            
+        <section>
+
             <Header />
             <Archive />
             <About />
             <Gallery />
             <Contact />
 
-        </div>
+        </section>
     )
 }
     

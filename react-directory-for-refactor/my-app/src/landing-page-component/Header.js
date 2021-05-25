@@ -4,7 +4,6 @@ import React from 'react';
 function Header() {
     return (
             <div>
-                
                 <header class="vertical-center">
 
                     <div>
@@ -13,7 +12,6 @@ function Header() {
                     </div>
 
                 </header>
-
             </div>
     )
 }
