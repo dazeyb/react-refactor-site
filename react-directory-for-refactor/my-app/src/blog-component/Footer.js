@@ -1,7 +1,5 @@
 import React from 'react';
 
-// Double check this to make sure it's pulling from the public folder
-import '../blog.css';
 
 function Footer() {
     return (

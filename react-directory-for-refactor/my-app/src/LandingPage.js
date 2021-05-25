@@ -7,6 +7,8 @@ import './style.css';
 import './landing.css';
 
 import NavBar from './Landing-component/NavBar.js';
+
+
 import Landing from './Landing-component/Landing.js';
 import Footer from './Landing-component/Footer.js';
 
