@@ -14,7 +14,7 @@ function Footer() {
                         <a href=""><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
                         <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
                     </div>
-                    <input type="text" placeholder="Email Address">
+                    <input type="text" placeholder="Email Address"/>
                     <button type="submit">Keep in Touch</button>
                 </div>
 
