@@ -4,7 +4,6 @@ import React from 'react';
 
 function NavBar() {
     return (
-            <div>
                 <nav>
                     <a class="hamburger" href=""><i class="fa fa-bars"></i></a>
                     
@@ -15,7 +14,6 @@ function NavBar() {
                         <li><a href="index.html#contact">Contact</a></li>
                     </ul>
                 </nav>
-            </div>
     )
 }
 

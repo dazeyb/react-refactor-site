@@ -6,43 +6,23 @@ import logo from './logo.svg';
 import './style.css';
 import './landing.css';
 
-import NavBar from './Landing-component/NavBar.js';
-import Landing from './Landing-component/Landing.js';
-import Footer from './Landing-component/Footer.js';
+import NavBar from './landing-page-component/NavBar.js';
+import Landing from './landing-page-component/Landing.js';
+import Footer from './landing-page-component/Footer.js';
 
 
 
-
-class LandingPage extends Component {
-  constructor() {
-    super();
-    console.log("LandingPage.js: In constructor()");
-  }
-
-  componentDidMount() {
-    console.log('LandingPage.js In componentDidMount()');
-  }
-
-  // componentDidUpdate(prevProps) {
-  //   console.log(`Home.js: In componentDidUpdate(). prevProps: ${JSON.stringify(prevProps)}`);
-  // }
-
-  componentWillUnmount() {
-    console.log('Home.js: In componentWillUnmount()');
-  }
-
-  render() {
-    console.log("LandingPage.js: In render()");
+function LandingPage () {
     return (
-      <div className="App">
 
+      <>
         <NavBar />
         <Landing />
         <Footer />
+      </>  
 
-    </div>
-    )
-  }
-
+  )
 }
+
+
 export default LandingPage;

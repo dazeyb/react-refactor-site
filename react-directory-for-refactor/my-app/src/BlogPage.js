@@ -14,13 +14,13 @@ import Footer from './blog-component/Footer.js';
 function BlogPage() {
   return (
 
-      <div className="App">
+      <div className="blog-page">
 
         <NavBar />
         <Blog />
         <Footer />
 
-    </div>
+      </div>
   )
 }
 

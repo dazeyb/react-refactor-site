@@ -1,15 +1,15 @@
 import React from 'react';
 
-import Header from './Landing-component/Header.js';
-import Archive from './Landing-component/Archive.js';
-import About from './Landing-component/About.js';
-import Gallery from './Landing-component/Gallery.js';
-import Contact from './Landing-component/Contact.js';
+import Header from './landing-page-component/Header.js';
+import Archive from './landing-page-component/Archive.js';
+import About from './landing-page-component/About.js';
+import Gallery from './landing-page-component/Gallery.js';
+import Contact from './landing-page-component/Contact.js';
 
 
 function Landing() {
     return (
-        <section>
+        <>
 
             <Header />
             <Archive />
@@ -17,7 +17,7 @@ function Landing() {
             <Gallery />
             <Contact />
 
-        </section>
+        </>
     )
 }
     

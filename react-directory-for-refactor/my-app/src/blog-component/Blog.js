@@ -8,14 +8,18 @@ import Comment from './Comment.js';
 
 function Blog() {
     return (
-        <section>
+        <>
 
             <Header />
-            <Article />
-            <Sidebar />
+
+            <div className="wrap grid-wrapper">
+                    <Article />
+                    <Sidebar />
+            </div>
+
             <Comment />
 
-        </section>
+        </>
     )
 }
     

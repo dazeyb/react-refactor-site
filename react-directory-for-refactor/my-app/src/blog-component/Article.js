@@ -4,7 +4,7 @@ import React from 'react';
 function Article() {
     return (
    
-           <div class="wrap grid-wrapper">
+
 
                 <section>
                     <article>
@@ -17,7 +17,6 @@ function Article() {
                     </article>
                 </section>
                 
-	        </div>
 
     )
 }

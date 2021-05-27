@@ -3,7 +3,7 @@ import React from 'react';
 
 function Footer() {
     return (
-        <div>
+
 
             <footer>
                 <div class="wrap">
@@ -19,7 +19,7 @@ function Footer() {
                 <p class="copyright">&copy;2016 Sarah Holden</p>
             </footer>
 
-        </div>
+
     )
 }
     

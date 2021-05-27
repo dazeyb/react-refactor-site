@@ -3,7 +3,7 @@ import React from 'react';
 
 function Sidebar() {
     return (
-        <section>
+
             <aside>
                 <h3>About Us</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum fugiat illo sunt quasi incidunt veniam cumque minus totam rem ea vel ut eius, accusamus, doloribus dolore at ipsum quaerat molestias.</p>
@@ -19,7 +19,7 @@ function Sidebar() {
                     <li><a href="">Issue Fourteen &mdash; Gatherings</a></li>
                 </ul>
             </aside>
-        </section>
+
     )
 }
     
