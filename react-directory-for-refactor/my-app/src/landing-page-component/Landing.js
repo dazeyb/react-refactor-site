@@ -1,10 +1,10 @@
 import React from 'react';
 
-import Header from './landing-page-component/Header.js';
-import Archive from './landing-page-component/Archive.js';
-import About from './landing-page-component/About.js';
-import Gallery from './landing-page-component/Gallery.js';
-import Contact from './landing-page-component/Contact.js';
+import Header from './Header.js';
+import Archive from './Archive.js';
+import About from './About.js';
+import Gallery from './Gallery.js';
+import Contact from './Contact.js';
 
 
 function Landing() {
